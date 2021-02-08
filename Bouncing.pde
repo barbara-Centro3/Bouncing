@@ -9,7 +9,7 @@ void setup () {
   vel = PVector.random2D();
   vel.mult(4.5);
   
-  img =loadImage(rilakuma.gif);
+  img =loadImage("rilakuma.gif");
 }
 
 void draw () {
