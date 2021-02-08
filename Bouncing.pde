@@ -1,13 +1,14 @@
 PImage img;
+
 PVector pos, vel;
-int c = #9911F0
+int c = #9911F0;
 
 void setup () {
   size(600, 600);
   
   pos = new PVector(300, 300);
   vel = PVector.random2D();
-  vel.mult(4.5);
+  vel.mult(3);
   
   img =loadImage("rilakuma.gif");
 }
