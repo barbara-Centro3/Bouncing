@@ -18,6 +18,7 @@ void draw () {
   
   pos.add(vel);
   if (pos.x < 0 || pos.x > width) {
+    c = color(random(255),random(255),random(255));
     vel.x *= -1;
   }
   
