@@ -1,5 +1,6 @@
 
 PVector pos, vel;
+int c = #9911F0
 
 void setup () {
   size(600, 600);
@@ -12,7 +13,7 @@ void setup () {
 void draw () {
   background(255);
   
-  fill(0);
+  fill(c);
   ellipse(pos.x, pos.y, 10, 10);
   
   pos.add(vel);
